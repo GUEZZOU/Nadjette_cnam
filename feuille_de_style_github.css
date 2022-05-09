@@ -1,0 +1,156 @@
+
+body{
+background:#FAFDD6;
+}
+                     /*.................................header........................*/
+					 
+header{
+	width: 100%;
+	vertical-align: center;/*pour mettre l'image au centre*/
+	border: 10px solid #ccc;/*pour encader l'image*/
+	border-radius: 10px;/*pour adondie le cadre de border*/
+	}
+	
+                    /*  ........................nav......................................................*/
+
+#banniere{
+	background-image: url("banniere.jpg");/*pour l'image*/
+	height: 550px;
+	width: 100%;
+	margin: auto;
+}
+           /*................................................titre.....................................*/
+#nad{
+	color: #FD6C9E; /*la couleur*/
+	font-size: 45px;
+	border: 10px solid #ccc;/*pour encader l'image*/
+	border-radius: 10px;/
+}
+h1{
+	color: #FD6C9E; /*la couleur*/
+	font-size: 35px;
+	
+	}
+p{
+		color: #811453;
+		font-size: 18px; /*pour la taille de l'ecriture*/
+		text-align: justify;/*pour justifier le texte*/
+	}
+	
+img{
+	width: 50%;
+	height: 10%;
+}
+
+h2{
+	color: #A85CF9;
+	font-size: 20px;
+}
+#nave{
+	padding: 40; margin: 0;
+	text-align: center; /*pour metre le nev au centre*/
+	
+	
+}
+
+#nave li{
+	display: inline;/*pour metre en lign*/
+	list-style: none /*pour efacer les point */
+ 	}
+#nave a{
+	display: inline-block;
+	margin: 0 40 3 40px;/* pour */
+	/*background: black; couleur de fond*/
+	width: 120px;/*pour la longure de blac du menu*/
+	text-decoration: none;
+	color: white;/*pour la couleur*/
+	height: 30px;/*pour la hauteure du menu*/
+	line-height: 10 40 10 40px;/*interlign*/
+	padding: 0 50px;
+	font-family: sans-serif;
+	font-size: 20px;/*pour la taille déecriture des liens(a)*/
+	background-color: #E6BA95;/*pour les cadre des liens */
+
+}
+#nave a:hover{background: #AC7D88;
+}
+
+	
+						/*.................................................tabtaeu.................................*/
+
+table{
+	border: 2px solid white;
+	background-color: white;
+	text-align: center;
+	
+	}
+caption{
+	font-size: 30px;
+	color: #FD6C9E;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+th{
+	background-color: #9E9E9E  ;
+	height: 45px;
+	border: ridge 1.5px;/*ridge c'est une bordure comme solide*/
+	color: #EFEFEF ;
+}
+	
+td{
+	border: 1px solid red;
+}
+	
+#tete{
+	background: white;
+}
+#interv{
+	background-color: #FD6C9E ;
+}
+#tel{
+	background: #FD6C9E ;
+}
+	
+            
+footer{
+	background: black;
+	width: 97%;
+	/*vertical-align: center;*/
+	justify-content: center;/*centre horizontalement*/
+	/*display: flex;*/
+	padding: 30px;
+	margin-left: auto;
+	/*margin-right: auto;*/
+}
+#p1{
+	font-size: 28px;
+	color: white;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+}
+              /*.................................activite...........................................*/
+	
+.jours{
+	background: red;
+}
+.lundi{
+	background: green;
+}
+#cour{
+	background: yellow;
+}
+#jeudii{
+	background: #FD6C9E ;
+}
+#jeudiii{
+	background: #FAFDD6 ;
+}
+.vendredi{
+	background:  #FA8072 ;
+}
+#mardi{
+	background: #A85CF9;
+
+
